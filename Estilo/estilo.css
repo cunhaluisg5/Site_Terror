@@ -23,7 +23,8 @@ h3,
 h4,
 .tabela_diretores,
 .texto_diretores,
-.tabela_filmes{
+.tabela_filmes,
+.contato{
 	text-align: center;
 }
 
@@ -90,8 +91,13 @@ body,
 	margin: 10px
 }
 
-.texto_diretores{
+.texto_diretores,
+.texto_borda{
 	color: #EA5252
+}
+
+.texto_borda{
+	text-shadow: 1px 1px 1px #000000;
 }
 
 .tabela_diretores{
