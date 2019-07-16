@@ -49,14 +49,18 @@ body,
 	border: 1px solid #FFFFFF;
 }
 
+.tabela_projeto,
+.rodape{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .rodape{
 	margin-left: 10px;
 	margin-right: 10px;
 	height: 30px;
 	background-color: #463F3F;
-	display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .tabelas_filmes{
