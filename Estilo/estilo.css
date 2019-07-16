@@ -2,7 +2,24 @@ body{
 	background-color: #000000;
 	color: #FFFFFF;
 	font-family: sans-serif;
-	font-size: 15px;
+	font-size: 15px
+}
+
+button{
+	border:1px solid #25692A;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:13px;
+	padding:6px 10px;
+	text-decoration:none;
+	border-color:#f61f0e;
+	background:linear-gradient(to bottom, #fca8a1 5%, #f61f0e 100%);
+	box-shadow:inset 0px 1px 0px 0px #fff4f3;
+	color:#000000;
+	text-shadow:0px 1px 0px #528009
 }
 
 h3,
@@ -25,57 +42,59 @@ h4,
 .texto_diretores,
 .tabela_filmes,
 .contato{
-	text-align: center;
+	text-align: center
 }
 
 body,
 .coluna_filmes,
 .coluna_diretores{
-	text-align: justify;
+	text-align: justify
 }
 
 .coluna_diretores,
 .coluna_filmes,
 .conteudo{
-	padding: 10px;
+	padding: 10px
 }
 
 .tabelas_filmes,
-.tabelas_diretores{
-	width: 100%;
+.tabelas_diretores,
+.imagem_index{
+	width: 100%
 }
 
 .tabela_filmes,
 .coluna_filmes{
-	border: 1px solid #FFFFFF;
+	border: 1px solid #FFFFFF
 }
 
 .tabela_projeto,
-.rodape{
+.rodape,
+.index{
 	display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center
 }
 
 .rodape{
 	margin-left: 10px;
 	margin-right: 10px;
 	height: 30px;
-	background-color: #463F3F;
+	background-color: #463F3F
 }
 
 .tabelas_filmes{
-	height: 280px;
+	height: 280px
 }
 
 .tabelas_diretores{
-	height: 245px;
+	height: 245px
 }
 
 .botoes{
 	width: 80px;
 	height: 40px;
-	border: 0;
+	border: 0
 }
 
 .conteudo_cabecalho{
@@ -83,7 +102,7 @@ body,
 	margin-top: 30px;
 	margin-bottom: 30px;
 	margin-left: 10px;
-	margin-right: 10px;
+	margin-right: 10px
 }
 
 .conteudo{
@@ -97,9 +116,18 @@ body,
 }
 
 .texto_borda{
-	text-shadow: 1px 1px 1px #000000;
+	text-shadow: 1px 1px 1px #000000
 }
 
 .tabela_diretores{
-	border: 1px solid #EA5252;
+	border: 1px solid #EA5252
+}
+
+.borda_index{
+	border-style: outset;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+	width: 80%
 }
